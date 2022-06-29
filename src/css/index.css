@@ -1,0 +1,31 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  height: 100vh;
+  
+}
+.big-div{
+  display: flex;
+  flex-direction: row;
+}
+
+#sec-div{
+  place-items: center center;
+  width: 35%;
+}
+
+
+.landing-image{
+  width: 65%;
+  height: 100vh ;
+}
+
+@media only screen and (max-width: 500px){
+  .landing-image{
+    display: none 
+  }
+}
+
+.sign-in-form{
+  width: 80%;
+}

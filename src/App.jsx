@@ -1,16 +1,10 @@
-import "bootstrap/dist/css/bootstrap.min.css"
-
+import  './css/index.css'
+import LandingPage from "./pages/landingPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hi Isomorphic
-         </p>
-
-      </header>
-    </div>
+    <LandingPage/>
+  
   );
 }
 
