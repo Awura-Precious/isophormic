@@ -10,7 +10,6 @@ body {
 }
 
 #sec-div{
-  place-items: center center;
   width: 35%;
 }
 
@@ -24,8 +23,24 @@ body {
   .landing-image{
     display: none 
   }
+  #sec-div{
+    width: 100%;
+    place-items: center center;
+  }
 }
 
 .sign-in-form{
-  width: 80%;
+  width: 90%;
+}
+
+.label-div {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#btn-button{
+  display: flex;
+  justify-content: right;
+
 }
