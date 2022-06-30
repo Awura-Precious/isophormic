@@ -4,20 +4,42 @@ body {
   height: 100vh;
   
 }
+
+
 .big-div{
   display: flex;
   flex-direction: row;
 }
 
 #sec-div{
-  width: 35%;
-  place-items: center center;
+  width: 30%;
+  place-items: center center ;
 }
 
+.para{
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1;
+  text-transform: uppercase;
+  color: rgb(120, 129, 149);
+  margin-top: 0px;
+  margin-bottom: 50px;
+  
+   
+}
 
 .landing-image{
-  width: 65%;
+  width: 70%;
   height: 100vh ;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/group2.jpg) no-repeat;
+  
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
 }
 
 @media only screen and (max-width: 500px){
@@ -25,13 +47,13 @@ body {
     display: none 
   }
   #sec-div{
-    width: 100%;
     place-items: center center;
+    width: 100%;
   }
 }
 
 .sign-in-form{
-  width: 90%;
+  width: 80%;
 }
 
 .label-div {
@@ -40,8 +62,59 @@ body {
 
 }
 
-#btn-button{
+#signin-button{
+  background-color: rgb(68, 130, 255) ;
+  color: rgb(245, 245, 245);
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 4px 25px;
+
+}
+
+.buttons-div{
   display: flex;
-  justify-content: right;
+  flex-direction: column;
+}
+
+.buttons-div Button {
+  margin-bottom: 15px;
+  color: rgb(236, 235, 233);
+  font-weight: 500;
+}
+
+
+#facebook {
+  background-color: rgb(59, 89, 152);
+}
+
+
+#google {
+  background-color: rgb(221, 75, 57);
+}
+
+#auth {
+  background-color: rgb(225, 70, 21);
+}
+
+
+#firebase{
+  background-color: rgb(255, 202, 40);
+}
+
+.buttons-div a{
+  text-decoration: none;
+  text-align: center;
+}
+
+#first-link{
+  font-size: 12px;
+  color: rgb(122, 124, 126);
+
+}
+
+#sec-link{
+  font-size: 15px;
+ 
 
 }
