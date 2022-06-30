@@ -11,6 +11,7 @@ body {
 
 #sec-div{
   width: 35%;
+  place-items: center center;
 }
 
 
